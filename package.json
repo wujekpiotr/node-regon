@@ -1,56 +1,84 @@
 {
-	"name": "node-regon",
-	"version": "0.1.51",
-	"description": "A library for accessing data about businesses from the National Statistics Office in Poland. It can be used to access data stored in the National Court register using unique identifiers that each company has such as NIP (Tax Identification) and REGON (Statistical) numbers.",
-	"main": "index.js",
-	"scripts": {
-		"test": "mocha --timeout 10000 test/*-test.js"
-	},
-	"options": {
-		"mocha": "--require .scripts/mocha_runner client/**/tests/**/*.js"
-	},
-	"repository": {
-		"type": "git",
-		"url": "git+https://github.com/Appsolutly/node-regon.git"
-	},
-	"keywords": [
-		"regon",
-		"node-regon",
-		"antigate",
-		"anti-captcha",
-		"nip",
-		"krs",
-		"wyszukiwarkaregon",
-		"wyszukiwarkaregontest",
-		"wsdl",
-		"gus",
-		"stat.gov.pl",
-		"identification number"
-	],
-	"author": "Adam Kaczmarzyk",
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/Appsolutly/node-regon/issues"
-	},
-	"homepage": "https://github.com/Appsolutly/node-regon#readme",
-	"devDependencies": {
-		"babel-core": "^6.7.4",
-		"babel-eslint": "^6.1.0",
-		"babel-polyfill": "^6.7.4",
-		"babel-preset-es2015": "6.x.x",
-		"babel-preset-stage-2": "6.x.x",
-		"chai": "3.x.x",
-		"enzyme": "1.x.x",
-		"eslint": "1.10.x",
-		"mocha": "2.x.x"
-	},
-	"dependencies": {
-		"antigate": "0.0.1",
-		"chai": "^3.5.0",
-		"deasync": "^0.1.6",
-		"debug": "^2.2.0",
-		"lodash": "^4.12.0",
-		"soap-extended": "^0.25.0",
-		"xml2js": "^0.4.19"
-	}
+  "_from": "node-regon@^0.1.51",
+  "_id": "node-regon@0.1.51",
+  "_inBundle": false,
+  "_integrity": "sha512-hd4+Ilrpz8PPIzKuWv8AjXay/7XNtibUTnWDS/F+FLCSmHboY3HwjvQ82bteUrSWHCCkBj7nDVzrkXixPsv+ww==",
+  "_location": "/node-regon",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "node-regon@^0.1.51",
+    "name": "node-regon",
+    "escapedName": "node-regon",
+    "rawSpec": "^0.1.51",
+    "saveSpec": null,
+    "fetchSpec": "^0.1.51"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/node-regon/-/node-regon-0.1.51.tgz",
+  "_shasum": "11e637d6eb4ae9b1aa6465bd72e7a70f0ef7c0f8",
+  "_spec": "node-regon@^0.1.51",
+  "_where": "/home/piotr/WebstormProjects/gus",
+  "author": {
+    "name": "Adam Kaczmarzyk"
+  },
+  "bugs": {
+    "url": "https://github.com/Appsolutly/node-regon/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "antigate": "0.0.1",
+    "chai": "^3.5.0",
+    "deasync": "^0.1.6",
+    "debug": "^2.2.0",
+    "lodash": "^4.12.0",
+    "soap-extended": "^0.25.0",
+    "xml2js": "^0.4.19"
+  },
+  "deprecated": false,
+  "description": "A library for accessing data about businesses from the National Statistics Office in Poland. It can be used to access data stored in the National Court register using unique identifiers that each company has such as NIP (Tax Identification) and REGON (Statistical) numbers.",
+  "devDependencies": {
+    "babel-core": "^6.7.4",
+    "babel-eslint": "^6.1.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "6.x.x",
+    "babel-preset-stage-2": "6.x.x",
+    "chai": "3.x.x",
+    "enzyme": "1.x.x",
+    "eslint": "1.10.x",
+    "mocha": "2.x.x"
+  },
+  "homepage": "https://github.com/Appsolutly/node-regon#readme",
+  "keywords": [
+    "regon",
+    "node-regon",
+    "antigate",
+    "anti-captcha",
+    "nip",
+    "krs",
+    "wyszukiwarkaregon",
+    "wyszukiwarkaregontest",
+    "wsdl",
+    "gus",
+    "stat.gov.pl",
+    "identification number"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "name": "node-regon",
+  "options": {
+    "mocha": "--require .scripts/mocha_runner client/**/tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Appsolutly/node-regon.git"
+  },
+  "scripts": {
+    "test": "mocha --timeout 10000 test/*-test.js"
+  },
+  "version": "0.1.51"
 }

@@ -98,8 +98,8 @@
                 <soap12:body use="literal"/>
             </wsdl:output>
         </wsdl:operation>
-        <wsdl:operation name="DaneSzukaj">
-            <soap12:operation soapAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DaneSzukaj" style="document"/>
+        <wsdl:operation name="DaneSzukajPodmioty">
+            <soap12:operation soapAction="http://CIS/BIR/PUBL/2014/07/IUslugaBIRzewnPubl/DaneSzukajPodmioty" style="document"/>
             <wsdl:input>
                 <soap12:body use="literal"/>
             </wsdl:input>
